@@ -1,0 +1,127 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:170px;
+}
+.nav ul{
+    margin: 0;
+    list-style-type: none;  
+}
+.main-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right:0;
+    background-color: black;
+}
+nav{
+    margin: 0;
+    padding: 0;
+} 
+nav li{
+    display:inline-block;
+    text-align: center;
+    margin: 0 3em;  
+}
+ 
+nav a {
+    text-decoration: none;
+    color:snow;  
+}
+.main-nav-bar{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+li a:hover {
+    color: bisque;
+    box-shadow: 5px, 0px, 25px;
+}
+li  a:active {
+    color: lightyellow;
+    background-color: khaki;
+}
+#container{
+    display:grid !important;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: space-evenly;
+    gap:1.4rem
+}
+.flex-images{
+    height: 250px;
+    margin: 40px 40px 20px 100px;
+}
+span svg{
+    display: inline-block !important;
+    margin: 10px -5px 0px 0px !important;
+    padding: 0.1rem;
+    border: 0.1rem;
+}
+.container-content{
+    display: inline-grid;
+    position:absolute;
+    bottom:100px;
+    left:20px;
+}
+.textual {
+    display: inline-block;
+    background-size: cover;
+    text-align: left;
+}
+h1{
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 50%;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: brown;
+}
+.textual button {
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 1.0rem;
+    margin-left: 65%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    opacity: 0.9;
+    padding:.3em;
+    color: ;
+    background-color: transparent;
+}
+.textual button{
+    color: black;
+    border-radius: 1em;
+    border-color: rgb(0, 0, 0);
+}
+.textual button:hover,
+.textual button:focus{
+    color:brown;
+}
+
+footer{
+    width: 100vw;
+    min-height: 5vh;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:1px 10px 0 -20px;
+    padding: 100px;
+    background: black;
+    color: white;
+}
